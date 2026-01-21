@@ -262,6 +262,18 @@ html {
   text-align: left;
 }
 
+.red-bullets li::marker {
+  color: red;
+}
+
 #footer {
   padding: 5%;
+}
+
+#foot-para {
+  text-align: right;
+}
+
+#foot-print {
+  padding-top: 5%;
 }
