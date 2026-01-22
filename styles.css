@@ -8,7 +8,7 @@
 body,
 html {
   width: 100%;
-  font-family: Arial, sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
   background-color: #000000;
 }
 
@@ -119,30 +119,6 @@ html {
   max-width: 100%;
 }
 
-/* Make image-wrapper shrink to image size inside flex column */
-.image-wrapper {
-  display: inline-block; /* shrink-wrap to image width */
-  position: relative; /* for absolute positioning of bottom-bar */
-  flex: 0 0 auto; /* prevents Bootstrap flex from stretching it */
-}
-
-/* Phone image */
-.image-wrapper img {
-  display: block; /* remove gaps under image */
-  width: auto; /* natural size */
-  max-width: 100%; /* responsive if needed */
-}
-
-/* Bottom bar overlay */
-.bottom-bar {
-  /*position: absolute;*/
-  width: 80%; /* slightly wider than image */
-  height: 80px;
-  background-color: red;
-  border-radius: 60px;
-  z-index: 1;
-}
-
 #kevin {
   text-align: center;
   color: white;
@@ -173,7 +149,7 @@ html {
   justify-content: center; /* horizontal center */
   align-items: center; /* vertical center */
   text-align: center; /* center text */
-  margin-top: -10px; /* optional: overlap a little with image if needed */
+  margin-top: -80px; /* optional: overlap a little with image if needed */
 }
 
 .bottom-bar h2 {
