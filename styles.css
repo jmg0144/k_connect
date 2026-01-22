@@ -126,6 +126,7 @@ html {
 #kevin {
   text-align: center;
   color: white;
+  font-style: italic;
 }
 
 #face {
@@ -146,7 +147,7 @@ html {
 
 .bottom-bar {
   width: 90%; /* slightly wider than image */
-  height: 100px;
+  height: 80px;
   background-color: #ee2c37;
   border-radius: 60px;
   display: flex; /* flex for centering text inside */
@@ -160,7 +161,8 @@ html {
   display: flex; /* flex to align image + text */
   align-items: center; /* vertical alignment of face and text */
   gap: 10px; /* spacing between face image and text */
-  font-size: 2.5rem;
+  font-size: 2rem;
+  font-weight: bold;
   margin: 0;
 }
 
@@ -235,15 +237,21 @@ html {
   font-weight: bold;
   font-size: 2rem;
   text-align: left;
+  padding-left: 20%;
 }
 
 #fine-print {
   font-size: 0.8rem;
   text-align: left;
+  padding-left: 20%;
 }
 
 .red-bullets li::marker {
   color: red;
+}
+
+#t-mobile {
+  padding-top: 10%;
 }
 
 #footer {
