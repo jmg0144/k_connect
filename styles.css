@@ -12,6 +12,10 @@ html {
   background-color: #000000;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 /* HERO SECTION */
 .hero {
   display: grid;
@@ -243,13 +247,21 @@ html {
 }
 
 #footer {
-  padding: 5%;
+  padding-top: 2%;
 }
 
 #foot-para {
   text-align: right;
 }
 
+#address {
+  font-size: 1rem;
+}
+
+#site {
+  font-size: 3rem;
+}
+
 #foot-print {
-  padding-top: 5%;
+  font-size: 0.7rem;
 }
