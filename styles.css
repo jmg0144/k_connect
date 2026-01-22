@@ -258,8 +258,19 @@ html {
   color: red;
 }
 
+#logo-container {
+  padding-top: 3%;
+  display: flex;
+  align-items: center; /* vertically centers the images */
+  gap: 20px; /* space between images */
+}
+
 #t-mobile {
-  padding: 10%;
+  height: 60px;
+}
+
+#kore-logo {
+  height: 80px;
 }
 
 #footer {
