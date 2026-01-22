@@ -68,6 +68,7 @@ html {
 #main-heading {
   font-size: 8rem;
   margin-left: 3%;
+  margin-top: -3%;
 }
 
 #phone {
@@ -237,6 +238,7 @@ html {
   font-size: 1.8rem;
   font-weight: bold;
   margin-left: 10%;
+  margin-top: -3%;
 }
 
 #offer-list {
