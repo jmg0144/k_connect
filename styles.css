@@ -203,12 +203,11 @@ html {
 
 /* "Just" under dollar */
 .just {
-  font-family: serif, cursive;
+  font-family: "Montserrat", sans-serif;
   font-size: 6rem;
   color: #ff2b2b;
   transform: rotate(-15deg);
   line-height: 0.5;
-  font-weight: bold;
   margin-left: 15%;
 }
 
