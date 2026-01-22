@@ -146,7 +146,7 @@ html {
 }
 
 .bottom-bar {
-  width: 90%; /* slightly wider than image */
+  width: 80%; /* slightly wider than image */
   height: 80px;
   background-color: #ee2c37;
   border-radius: 60px;
@@ -197,38 +197,46 @@ html {
   font-weight: 900;
   color: #ffd400;
   transform: translateY(-15px);
+  margin-left: 80%;
 }
 
 /* "Just" under dollar */
 .just {
-  font-family: "Pacifico", cursive;
-  font-size: 8rem;
+  font-family: serif, cursive;
+  font-size: 6rem;
   color: #ff2b2b;
   transform: rotate(-15deg);
   line-height: 0.5;
+  font-weight: bold;
+  margin-left: 15%;
 }
 
 /* Big 30 */
 .price {
-  font-size: 20rem;
+  font-size: 18rem;
   font-weight: 900;
   color: #ffd400;
   line-height: 1;
+  letter-spacing: -35px;
 }
 
 .per-line {
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 0.25;
+  margin-left: 30%;
 }
 
 .headline {
   font-size: 3rem;
   font-weight: 900;
   color: #ffd400;
+  margin-left: 10%;
 }
 
 .subtext {
   font-size: 1.8rem;
+  font-weight: bold;
+  margin-left: 10%;
 }
 
 #offer-list {
@@ -251,7 +259,7 @@ html {
 }
 
 #t-mobile {
-  padding-top: 10%;
+  padding: 10%;
 }
 
 #footer {
