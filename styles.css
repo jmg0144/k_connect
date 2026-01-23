@@ -177,7 +177,7 @@ html {
 .promo-content {
   text-align: center;
   color: white;
-  margin-right:15%;
+  margin-right: 15%;
 }
 
 .price-wrapper {
@@ -204,7 +204,7 @@ html {
 
 /* "Just" under dollar */
 .just {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Pacifico", sans-serif;
   font-size: 6rem;
   color: #ff2b2b;
   transform: rotate(-15deg);
@@ -257,7 +257,7 @@ html {
 }
 
 .red-bullets li::marker {
-  color: red;
+  color: #ff2b2b;
 }
 
 #logo-container {
