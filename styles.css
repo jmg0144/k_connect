@@ -177,6 +177,7 @@ html {
 .promo-content {
   text-align: center;
   color: white;
+  margin-right:15%;
 }
 
 .price-wrapper {
@@ -246,13 +247,13 @@ html {
   font-weight: bold;
   font-size: 2rem;
   text-align: left;
-  padding-left: 20%;
+  padding-left: 17%;
 }
 
 #fine-print {
   font-size: 0.8rem;
   text-align: left;
-  padding-left: 20%;
+  padding-left: 13%;
 }
 
 .red-bullets li::marker {
